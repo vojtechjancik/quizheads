@@ -9,12 +9,12 @@
     android:orientation="vertical">
 
     <Button
+        android:id="@+id/quickTestButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/quickTestButton"
-        android:text="@string/quick_test"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="80dp" />
+        android:layout_marginTop="80dp"
+        android:text="@string/quick_test" />
 
     <Button
         android:layout_width="wrap_content"
