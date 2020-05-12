@@ -1,6 +1,7 @@
 package com.example.quizheads;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -29,6 +30,18 @@ public class StartLearning extends AppCompatActivity {
         countries.put("France", "Paris");
         countries.put("Germany", "Berlin");
         countries.put("Austria", "Vienna");
+        countries.put("Hungary", "Budapest");
+        countries.put("Sweden", "Stockholm");
+        countries.put("Norway", "Oslo");
+        countries.put("Finland", "Helsinki");
+        countries.put("Spain", "Madrid");
+        countries.put("Australia", "Perth");
+        countries.put("Denmark", "Kobenhaven");
+        countries.put("Poland", "Warszawa");
+        countries.put("Italy", "Roma");
+        countries.put("Portugal", "Lisboa");
+        countries.put("Croatia", "Zagreb");
+
         //countries.get("Czech Republic");
 
 
@@ -38,4 +51,5 @@ public class StartLearning extends AppCompatActivity {
 
         recyclerView.setAdapter(adapter);
     }
+
 }
