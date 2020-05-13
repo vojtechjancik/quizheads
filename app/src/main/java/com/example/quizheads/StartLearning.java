@@ -15,10 +15,16 @@ public class StartLearning extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager layoutManager;
-    Adapter adapter;
-    Map<String, String> countries = new HashMap<>();
 
-    public Map<String, String> getMapCountries() {
+    Adapter adapter;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_startlearning);
+
+        // data to populate the RecyclerView with
+        Map<String, String> countries = new HashMap<>();
         countries.put("Czech Republic", "Prague");
         countries.put("Slovakia", "Bratislava");
         countries.put("France", "Paris");
@@ -35,18 +41,15 @@ public class StartLearning extends AppCompatActivity {
         countries.put("Italy", "Roma");
         countries.put("Portugal", "Lisboa");
         countries.put("Croatia", "Zagreb");
-        return countries;
-    }
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_startlearning);
-        getMapCountries();
+        //countries.get("Czech Republic");
+
 
         // set up the RecyclerView
         RecyclerView recyclerView = findViewById(R.id.recycler_view_learning_countries);
         adapter = new Adapter(this, countries);
+
         recyclerView.setAdapter(adapter);
     }
+
 }
