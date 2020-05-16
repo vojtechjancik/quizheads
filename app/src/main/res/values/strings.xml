@@ -11,8 +11,8 @@
     <string name="question_name">Question name</string>
     <string name="result_button">Result</string>
     <string name="question_number_2">\Question number \</string>
-    <string name="question_capital_city">\"What is the capital city of: \"</string>
-    <string name="question_country">\"In which state is this capital city located: \"</string>
+    <string name="question_capital_city">\What is the capital city of: \</string>
+    <string name="question_country">\In which state is this capital city located: \</string>
     <string name="next_question_button">Next question</string>
 
     <!-- STATES -->
