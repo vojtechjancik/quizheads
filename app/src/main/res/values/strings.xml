@@ -1,6 +1,83 @@
 <resources>
+
+    <!-- MAIN ACTIVITY -->
     <string name="app_name">Quiz Heads</string>
     <string name="quick_test">Quick test</string>
     <string name="start_learning">Start learning</string>
-    <string name="about_this_project">About this project</string>
+    <string name="about_project">About project</string>
+
+    <!-- TEST -->
+    <string name="question_number">Question number </string>
+    <string name="question_name">Question name</string>
+    <string name="result_button">Result</string>
+    <string name="question_number_2">\Question number \</string>
+    <string name="question_capital_city">\What is the capital city of: \</string>
+    <string name="question_country">\In which state is this capital city located: \</string>
+    <string name="next_question_button">Next question</string>
+
+    <!-- STATES -->
+    <string name="afghanistan">Afghanistan</string>
+    <string name="afghanistan_capital">Kabul</string>
+    <string name="albania">Albania</string>
+    <string name="albania_capital">Tirana</string>
+    <string name="algeria">Algeria</string>
+    <string name="algeria_capital">Algiers</string>
+    <string name="australia">Australia</string>
+    <string name="australia_capital">Perth</string>
+    <string name="austria">Austria</string>
+    <string name="austria_capital">Vienna</string>
+    <string name="andorra">Andorra</string>
+    <string name="andorra_capital">Andorra la Vella</string>
+    <string name="angola">Angola</string>
+    <string name="angola_capital">Luanda</string>
+    <string name="antigua_and_barbuda">Antigua and Barbuda</string>
+    <string name="antigua_and_barbuda_capital">Saint John\'s</string>
+    <string name="argentina">Argentina</string>
+    <string name="argentina_capital">Buenos Aires</string>
+    <string name="armenia">Armenia</string>
+    <string name="armenia_capital">Yerevan</string>
+    <string name="azerbaijan">Azerbaijan</string>
+    <string name="azerbaijan_capital">Baku</string>
+    <string name="croatia">Croatia</string>
+    <string name="croatia_capital">Zagreb</string>
+    <string name="czechia">Czechia</string>
+    <string name="czechia_capital">Prague</string>
+    <string name="denmark">Denmark</string>
+    <string name="denmark_capital">Copenhagen</string>
+    <string name="fiji">Fiji</string>
+    <string name="fiji_capital">Suva</string>
+    <string name="finland">Finland</string>
+    <string name="finland_capital">Helsinki</string>
+    <string name="france">France</string>
+    <string name="france_capital">Paris</string>
+    <string name="germany">Germany</string>
+    <string name="germany_capital">Berlin</string>
+    <string name="hungary">Hungary</string>
+    <string name="hungary_capital">Budapest</string>
+    <string name="italy">Italy</string>
+    <string name="italy_capital">Rome</string>
+    <string name="norway">Norway</string>
+    <string name="norway_capital">Oslo</string>
+    <string name="poland">Poland</string>
+    <string name="poland_capital">Warsaw</string>
+    <string name="portugal">Portugal</string>
+    <string name="portugal_capital">Lisbon</string>
+    <string name="slovakia">Slovakia</string>
+    <string name="slovakia_capital">Bratislava</string>
+    <string name="spain">Spain</string>
+    <string name="spain_capital">Madrid</string>
+    <string name="sweden">Sweden</string>
+    <string name="sweden_capital">Stockholm</string>
+
+    <!-- START LEARNING -->
+    <string name="countries_title">Countries</string>
+    <string name="capital_cities_title">Capital cities</string>
+
+    <!-- ABOUT PROJECT -->
+    <string name="quiz_heads_project_title">Quiz Heads project</string>
+    <string name="about_project_text">Creating project for learning Android and Java programming.
+        App is about learning and testing your skills about countries and it\'s capital cities.</string>
+    <string name="vojtech_jancik_adela_turcovska">Vojtech Jancik &amp; Adela Turcovska</string>
+
+
 </resources>

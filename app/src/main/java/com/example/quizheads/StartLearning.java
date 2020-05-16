@@ -38,6 +38,8 @@ public class StartLearning extends AppCompatActivity {
         countries.put("Slovakia", "Bratislava");
         countries.put("Spain", "Madrid");
         countries.put("Sweden", "Stockholm");
+        //countries.put( getString(R.string.angola), getString(R.string.angola_capital)); //Not working, but should be!
+
         return countries;
     }
 
