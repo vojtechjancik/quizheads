@@ -19,22 +19,25 @@ public class StartLearning extends AppCompatActivity {
     Map<String, String> countries = new HashMap<>();
 
     public Map<String, String> getMapCountries() {
+        countries.put("Afghanistan", "Kabul");
+        countries.put("Albania", "Tirana");
+        countries.put("Algeria", "Algiers");
+        countries.put("Australia", "Perth");
+        countries.put("Austria", "Vienna");
+        countries.put("Croatia", "Zagreb");
         countries.put("Czech Republic", "Prague");
-        countries.put("Slovakia", "Bratislava");
+        countries.put("Denmark", "Copenhagen");
+        countries.put("Finland", "Helsinki");
         countries.put("France", "Paris");
         countries.put("Germany", "Berlin");
-        countries.put("Austria", "Vienna");
         countries.put("Hungary", "Budapest");
-        countries.put("Sweden", "Stockholm");
-        countries.put("Norway", "Oslo");
-        countries.put("Finland", "Helsinki");
-        countries.put("Spain", "Madrid");
-        countries.put("Australia", "Perth");
-        countries.put("Denmark", "Kobenhaven");
-        countries.put("Poland", "Warszawa");
         countries.put("Italy", "Roma");
+        countries.put("Norway", "Oslo");
+        countries.put("Poland", "Warsaw");
         countries.put("Portugal", "Lisboa");
-        countries.put("Croatia", "Zagreb");
+        countries.put("Slovakia", "Bratislava");
+        countries.put("Spain", "Madrid");
+        countries.put("Sweden", "Stockholm");
         return countries;
     }
 
