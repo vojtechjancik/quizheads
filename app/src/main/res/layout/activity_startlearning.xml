@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Countries"
+            android:text="@string/countries_title"
             android:textSize="25dp"
             android:textColor="@color/colorQuestionTitle"
             android:layout_alignParentLeft="true"
@@ -23,7 +23,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Capital cities"
+            android:text="@string/capital_cities_title"
             android:textSize="25dp"
             android:textColor="@color/colorQuestionTitle"
             android:layout_alignParentRight="true"

@@ -14,7 +14,6 @@ public class AboutThisProject extends AppCompatActivity {
         setContentView(R.layout.activity_aboutthisproject);
 
         TextView textView = findViewById(R.id.aboutProjectText);
-        textView.setText("Creating project for learning Android and Java programming. " +
-                "App is about learning and testing your skills about countries and it's capital cities.");
+        textView.setText(R.string.about_project_text);
     }
 }

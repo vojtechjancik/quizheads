@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- HLAVNÍ AKTIVITA -->
+    <string name="app_name">Quiz Heads</string>
+    <string name="quick_test">Test</string>
+    <string name="start_learning">Nauč se</string>
+    <string name="about_project">O projektu</string>
+
+    <!-- TESTOVÁNÍ -->
+    <string name="question_number">Otázka číslo</string>
+    <string name="question_name">Název otázky</string>
+    <string name="result_button">Výsledek</string>
+    <string name="question_number_2">Otázka číslo \</string>
+    <string name="question_capital_city">Jaké je hlavní město tohoto státu: \</string>
+    <string name="question_country">V jakém státu je toto hlavní město: \</string>
+    <string name="next_question_button">Další otázka</string>
+
+    <!-- STÁTY -->
+    <string name="afghanistan">Afghánistán</string>
+    <string name="afghanistan_capital">Kábul</string>
+    <string name="albania">Albánie</string>
+    <string name="albania_capital">Tirana</string>
+    <string name="algeria">Alžírsko</string>
+    <string name="algeria_capital">Algiers</string>
+    <string name="australia">Austrálie</string>
+    <string name="australia_capital">Perth</string>
+    <string name="austria">Rakousko</string>
+    <string name="austria_capital">Vídeň</string>
+    <string name="andorra">Andorra</string>
+    <string name="andorra_capital">Andorra la Vella</string>
+    <string name="angola">Angola</string>
+    <string name="angola_capital">Luanda</string>
+    <string name="antigua_and_barbuda">Antigua a Barbuda</string>
+    <string name="antigua_and_barbuda_capital">Saint John\'s</string>
+    <string name="argentina">Argentina</string>
+    <string name="argentina_capital">Buenos Aires</string>
+    <string name="armenia">Arménie</string>
+    <string name="armenia_capital">Jerevan</string>
+    <string name="azerbaijan">Ázerbájdžán</string>
+    <string name="azerbaijan_capital">Baku</string>
+    <string name="croatia">Chorvatsko</string>
+    <string name="croatia_capital">Záhřeb</string>
+    <string name="czechia">Česká republika</string>
+    <string name="czechia_capital">Praha</string>
+    <string name="denmark">Dánsko</string>
+    <string name="denmark_capital">Kodaň</string>
+    <string name="fiji">Fiji</string>
+    <string name="fiji_capital">Suva</string>
+    <string name="finland">Finsko</string>
+    <string name="finland_capital">Helsinki</string>
+    <string name="france">Francie</string>
+    <string name="france_capital">Paříž</string>
+    <string name="germany">Německo</string>
+    <string name="germany_capital">Berlín</string>
+    <string name="hungary">Maďarsko</string>
+    <string name="hungary_capital">Budapešť</string>
+    <string name="italy">Itálie</string>
+    <string name="italy_capital">Řím</string>
+    <string name="norway">Norsko</string>
+    <string name="norway_capital">Oslo</string>
+    <string name="poland">Polsko</string>
+    <string name="poland_capital">Varšava</string>
+    <string name="portugal">Portugalsko</string>
+    <string name="portugal_capital">Lisabon</string>
+    <string name="slovakia">Slovensko</string>
+    <string name="slovakia_capital">Bratislava</string>
+    <string name="spain">Španělsko</string>
+    <string name="spain_capital">Madrid</string>
+    <string name="sweden">Švédsko</string>
+    <string name="sweden_capital">Stockholm</string>
+
+    <!-- NAUČ SE -->
+    <string name="countries_title">Státy</string>
+    <string name="capital_cities_title">Hlavní města</string>
+
+    <!-- O PROJEKTU -->
+    <string name="quiz_heads_project_title">Projekt Quiz Heads</string>
+    <string name="about_project_text">Vytvoření projektu pro naučení programování v Androidu a Javě.
+        Aplikace se zaměřuje na otestování dovedností o státech a jejich hlavních městech.</string>
+    <string name="vojtech_jancik_adela_turcovska">Vojtěch Jančík &amp; Adéla Turcovská</string>
+
+
+
+</resources>

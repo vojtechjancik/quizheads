@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/aboutProjectTitle"
         android:textSize="30dp"
-        android:text="Quiz Heads project"
+        android:text="@string/quiz_heads_project_title"
         android:gravity="center"
         android:textColor="#124578"
         android:layout_marginTop="25dp" />
@@ -28,7 +28,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Vojtech Jancik   Adela Turcovska"
+        android:text="@string/vojtech_jancik_adela_turcovska"
         android:gravity="center"
         android:layout_marginTop="80dp"/>
 
