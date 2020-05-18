@@ -9,6 +9,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,6 +19,7 @@ public class QuickStart extends AppCompatActivity  {
     int number = 1;
     StartLearning objectStartLearning = new StartLearning();
     int correctAnswerCounter = 0;
+
 
 
         @Override
@@ -28,6 +31,7 @@ public class QuickStart extends AppCompatActivity  {
             increaseQuestionNumber();
             showResults();
         }
+
 
         @SuppressLint("SetTextI18n")
         public void increaseQuestionNumber() {
@@ -59,9 +63,10 @@ public class QuickStart extends AppCompatActivity  {
             final TextView textViewQuestion = findViewById(R.id.questionNameTextView);
             final Button showResult = findViewById(R.id.showResultButton);
             final EditText textForAnswer = findViewById(R.id.answerEditText);
+            Map<String, String> getMapOfCountries = DataHelper.createMapOfCountries(this);
 
-            final ArrayList<String> keyList = new ArrayList<String>(objectStartLearning.getMapCountries().keySet());
-            final ArrayList<String> valueList = new ArrayList<String>(objectStartLearning.getMapCountries().values());
+            final ArrayList<String> keyList = new ArrayList<String>(getMapOfCountries.keySet());
+            final ArrayList<String> valueList = new ArrayList<String>(getMapOfCountries.values());
 
             final int indexOfQuestionNumbers = (int) (Math.random() * 10);
 
@@ -79,7 +84,11 @@ public class QuickStart extends AppCompatActivity  {
                 public void onClick(View view) {
                     String textFromAnswer = textForAnswer.getText().toString();
 
-                    if(textFromAnswer.contains(keyList.get(indexOfQuestionNumbers)) || textFromAnswer.equals(valueList.get(indexOfQuestionNumbers))) {
+                    if(randomIndex2 == 1 && textFromAnswer.contains(keyList.get(indexOfQuestionNumbers))) {
+                        showResult.setBackgroundColor(Color.parseColor("#00BB11"));
+                        showResult.setEnabled(false);
+                        correctAnswerCounter++;
+                    } else if(randomIndex2 == 0 && textFromAnswer.equals(valueList.get(indexOfQuestionNumbers))){
                         showResult.setBackgroundColor(Color.parseColor("#00BB11"));
                         showResult.setEnabled(false);
                         correctAnswerCounter++;
@@ -87,17 +96,19 @@ public class QuickStart extends AppCompatActivity  {
                         showResult.setBackgroundColor(Color.parseColor("#FF0000"));
                     }
                 }
+
             });
 
         }
 
-        public void showResults() {
+        public void showResults() { //TODO
             Button nextQuestion = findViewById(R.id.nextQuestionButton);
             final Button showResult = findViewById(R.id.showResultButton);
 
-            if(number == 10) {
+            if(number == 9) {
                 showResult.setText("See all results");
                 nextQuestion.setVisibility(View.INVISIBLE);
+                showResult.setVisibility(View.VISIBLE);
             }
         }
 }
