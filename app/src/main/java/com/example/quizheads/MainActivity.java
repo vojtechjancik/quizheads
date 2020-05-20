@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         quickStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent( MainActivity.this, QuickStart.class);
+                Intent i = new Intent(MainActivity.this, QuickStart.class);
                 startActivity(i);
             }
         });
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         startLearning.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent( MainActivity.this, StartLearning.class);
+                Intent i = new Intent(MainActivity.this, StartLearning.class);
                 startActivity(i);
             }
         });
@@ -40,9 +40,11 @@ public class MainActivity extends AppCompatActivity {
         aboutThisProject.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent( MainActivity.this, AboutThisProject.class);
+                Intent i = new Intent(MainActivity.this, AboutThisProject.class);
                 startActivity(i);
             }
         });
+
+
+    }
  }
-}
