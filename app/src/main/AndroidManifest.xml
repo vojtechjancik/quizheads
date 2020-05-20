@@ -16,9 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".QuickStart" />
         <activity android:name=".AboutThisProject" />
         <activity android:name=".StartLearning" />
+        <activity android:name=".PopUpResults" />
+
     </application>
 
 </manifest>
