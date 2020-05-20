@@ -1,50 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
-
-    <TextView
-        android:id="@+id/questionNumber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Question number"
-        android:gravity="center"
-        android:layout_gravity="left"
-        android:layout_marginTop="50dp"
-        android:textSize="20dp"
-        android:layout_marginStart="20dp" />
-
-    <TextView
-        android:layout_marginTop="30dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:text="Question name"
-        android:layout_marginStart="15dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/questionNameTextView" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <TextView
+            android:id="@+id/questionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_number"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="30dp"/>
+
+    <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:text="@string/question_name"
+            android:layout_marginStart="30dp"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginEnd="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/questionNameTextView"
+            />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/answerEditText"
-        android:layout_marginTop="50dp"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/answerEditText"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Show result"
-        android:id="@+id/showResultButton"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"/>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            >
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/result_button"
+                android:id="@+id/showResultButton"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="25dp"/>
 
-    <Button
-        android:layout_marginTop="40dp"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/nextQuestionButton"
-        android:text="Next question"/>
+        <Button
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nextQuestionButton"
+                android:text="@string/next_question_button"
+                android:layout_marginEnd="25dp"/>
 
+        <Button
+                android:id="@+id/popUpButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Final results"
+                android:visibility="invisible" />
+
+    </RelativeLayout>
 </LinearLayout>
