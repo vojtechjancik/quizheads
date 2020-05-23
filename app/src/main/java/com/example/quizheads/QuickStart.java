@@ -31,7 +31,9 @@ public class QuickStart extends AppCompatActivity  {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(QuickStart.this, PopUpResults.class);
+                i.putExtra("correctanswer", correctAnswerCounter);
                 startActivity(i);
+                //put extra - jak získávat v nové aktivitě
             }
         });
         showQuestion();
@@ -117,6 +119,8 @@ public class QuickStart extends AppCompatActivity  {
         finalRes.setVisibility(View.VISIBLE);
         nextQuestion.setVisibility(View.INVISIBLE);
         showResult.setVisibility(View.INVISIBLE);
+
+
     }
 }
 
